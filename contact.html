@@ -11,12 +11,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="assets/css/media.css">
 </head>
 
 <body>
     <header>
-        <nav class="nav">
+        <nav id="nav">
             <div class="container clearfix">
                 <h1 class="nav-brand heading">
                     <a href="index.html">Motel</a>
@@ -33,9 +33,9 @@
         </nav>
     </header>
     <main>
-        <section class="form-section">
+        <section id="form-section">
             <div class="container">
-                <form class="form">
+                <form id="form" class="py-50">
                     <div class="form-group">
                         <label for="name">Enter Name</label>
                         <input type="text" name="name" placeholder="Enter Name">
@@ -56,22 +56,23 @@
                 </form>
             </div>
         </section>
-        <section class="contact-section clearfix bg-primary">
-            <div class="contact-content">
+        <section id="contact-info" class="clearfix bg-primary">
+            <div class="box">
                 <img src="assets/images/icons/telephone.png" alt="Phone" class="icon">
                 <h2 class="heading secondary">Phone</h2>
-                <p>+91 9637161743</p>
+                <p class="text-white">+91 9637161743</p>
             </div>
-            <div class="contact-content">
+            <div class="box">
                 <img src="assets/images/icons/email.png" alt="Email" class="icon">
                 <h2 class="heading secondary">Email</h2>
-                <p>xyz@motelparadise.com</p>
+                <p class="text-white">xyz@motelparadise.com</p>
             </div>
-            <div class="contact-content">
+            <div class="box">
                 <img src="assets/images/icons/home.png" alt="Location" class="icon">
                 <h2 class="heading secondary">Location</h2>
-                <p>Maldives, India</p>
+                <p class="text-white">Maldives, India</p>
             </div>
+
         </section>
     </main>
     <footer>
