@@ -6,4 +6,4 @@
 
 # URL
 
-- View this website live on - https://ratnesh1972.github.io/motel/about.html
+- View this website live on - https://ratnesh1972.github.io/motel
